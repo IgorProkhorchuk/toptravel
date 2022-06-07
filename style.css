@@ -1,0 +1,9 @@
+        h1 {
+            color: orange;
+            background-color: aqua;
+        }
+        p {
+            color: rgb(92, 92, 92);
+            column-count: 3;
+            font-size: larger;
+        }
