@@ -1,50 +1,825 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Toptravel</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Toptravel - Турагенція</title>
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicons.png" type="image/png">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
 </head>
-<body>
-    <header>
-        <h1>Toptravel</h1>
-    </header>
-    <section class="banner">
-        <img src="/img/banner.png" alt="Marioclub welcome banner">
-        <div class="welcome">
-            <h2>Welcome to <br><span>Marioclub</span></h2>
+
+<body id="top">
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header" data-header>
+
+    <div class="overlay" data-overlay></div>
+
+    <div class="header-top">
+      <div class="container">
+
+        <a href="tel:+380508561510" class="helpline-box">
+
+          <div class="icon-box">
+            <ion-icon name="call-outline"></ion-icon>
+          </div>
+
+          <div class="wrapper">
+            <p class="helpline-title">Зателефонуйте нам :</p>
+
+            <p class="helpline-number">+38(063)415-12-10</p>
+          </div>
+
+        </a>
+
+        <a href="#" class="logo">
+          <img src="./assets/images/bitmap.svg" alt="Toptravel logo">
+        </a>
+
+        <div class="header-btn-group">
+
+          <button class="search-btn" aria-label="Search">
+            <ion-icon name="search"></ion-icon>
+          </button>
+
+          <button class="nav-open-btn" aria-label="Open Menu" data-nav-open-btn>
+            <ion-icon name="menu-outline"></ion-icon>
+          </button>
+
         </div>
-    </section>
-    <nav class="main-nav">
-        <ul>
-            <li><a href="/join.html" class="join">Join the club</a></li>
-            <li><a href="/news.html">Laters news</a></li>
-            <li><a href="/games.html">New games</a></li>
-            <li><a href="/contacts.html">Contacts</a></li>
+
+      </div>
+    </div>
+
+    <div class="header-bottom">
+      <div class="container">
+
+        <ul class="social-list">
+
+          <li>
+            <a href="https://www.facebook.com/toptravel.smila" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
         </ul>
-    </nav>
-    <main>
-        <article>
-            <h2>It's a me, Mario</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies leo massa, vitae vulputate sapien fringilla in. Nam at purus dignissim, facilisis risus ut, efficitur ligula. Vivamus convallis velit id nunc iaculis, ac vehicula tellus convallis. In at viverra felis. Nulla suscipit, magna sed luctus pulvinar, orci ex placerat mi, eu aliquam velit massa in diam. Donec risus lorem, imperdiet ut vulputate non, imperdiet at leo. Mauris non metus commodo, vestibulum erat eget, rutrum erat. Morbi sed justo a dolor posuere aliquam. Proin porta massa tempus ipsum blandit, in rhoncus lectus pretium. Sed nec iaculis leo. Aenean vitae pharetra metus. Cras a diam eget lorem venenatis venenatis. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vivamus tincidunt augue non velit tempor sollicitudin. In nec leo in est tempor placerat. In eros velit, finibus et vestibulum ac, viverra vitae odio. Praesent non feugiat sem. Phasellus accumsan nisi id ante lobortis malesuada. Etiam porttitor auctor odio, vitae ultrices libero dignissim eget. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin est turpis, molestie vel mauris sit amet, consequat faucibus ligula. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Mauris nec ligula erat. Fusce quis tortor quis nisi eleifend pharetra non eu dolor. Curabitur quis convallis massa. Praesent fermentum egestas arcu eu luctus. Maecenas sit amet tortor ut purus finibus elementum in finibus felis. In vehicula mollis purus.Phasellus semper purus in ex ultricies, ac mattis arcu euismod. Pellentesque pellentesque convallis nulla, non lobortis eros tincidunt eget. Etiam mattis semper nisl at dictum. Etiam pulvinar ligula et velit porta auctor. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque in lorem accumsan, fringilla odio nec, ultrices lectus. Nunc ullamcorper sapien lacus, imperdiet pellentesque odio pharetra eu. Morbi ac aliquet augue. Aliquam vehicula arcu vel euismod condimentum. Nunc id vehicula ligula. Ut id leo nisl. Vivamus sollicitudin aliquet nisl in commodo. Suspendisse potenti. Quisque ligula mauris, ultricies id odio eu, interdum varius elit. Nulla iaculis bibendum mi, sit amet ultrices felis euismod id. Ut vulputate velit eget eros sollicitudin suscipit et a sapien.</p>
-        </article>
-        <ul class="images">
-            <li><img src="/img/thumb-1.png" alt="mario thumb-1"></li>
-            <li><img src="/img/thumb-2.png" alt="mario thumb-2"></li>
-        </ul>
-    </main>
-    <section class="join">
-        <h2>Join today</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus ultricies leo massa, vitae vulputate sapien fringilla in. Nam at purus dignissim, facilisis risus ut, efficitur ligula.</p>
-        <form>
-            <input type="email" name="email" placeholder="Type email & hit enter" required>
-        </form>
-    </section>
-    <footer>
-        <p class="copyright">copyright 2019 marioclub</p>
-    </footer>
+
+        <nav class="navbar" data-navbar>
+
+          <div class="navbar-top">
+
+            <a href="#" class="logo">
+              <img src="./assets/images/bitmap.svg" alt="Toptravel logo">
+            </a>
+
+            <button class="nav-close-btn" aria-label="Close Menu" data-nav-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+          </div>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>головна</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>про нас</a>
+            </li>
+
+            <li>
+              <a href="#destination" class="navbar-link" data-nav-link>море</a>
+            </li>
+
+            <li>
+              <a href="#package" class="navbar-link" data-nav-link>гори</a>
+            </li>
+            
+            <li>
+              <a href="/all-excursions.html" class="navbar-link" data-nav-link>екскурсії</a>
+            </li>
+            
+            <li>
+              <a href="#gallery" class="navbar-link" data-nav-link>галерея</a>
+            </li>
+
+            <li>
+              <a href="#contact" class="navbar-link" data-nav-link>конакти</a>
+            </li>
+
+          </ul>
+
+        </nav>
+        <a href="feedback.html" class="navbar-link" data-nav-link>
+          <button class="btn btn-primary">Забронювати Зараз</button>
+        </a>
+      </div>
+    </div>
+
+  </header>
 
 
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="hero" id="home">
+        <div class="container">
+
+          <h2 class="h1 hero-title">Подорожуй з Toptravel!</h2>
+
+          <p class="hero-text">
+            Запрошуємо до знайомства тих, хто не уявляє своє життя без подорожей!
+          </p>
+
+          <div class="btn-group">
+            <button class="btn btn-primary">Дізнатися більше</button>
+
+            <button class="btn btn-secondary">Пошук</button>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #TOUR SEARCH
+      -->
+
+      <section class="tour-search">
+        <div class="container">
+
+          <form action="" class="tour-search-form">
+
+            <div class="input-wrapper">
+              <label for="destination" class="input-label">Місто*</label>
+
+              <input type="text" name="destination" id="destination" required placeholder="Enter Destination"
+                class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="people" class="input-label">К-ть подорожуючих*</label>
+
+              <input type="number" name="people" id="people" required placeholder="No.of People" class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkin" class="input-label">Дата початку**</label>
+
+              <input type="date" name="checkin" id="checkin" required class="input-field">
+            </div>
+
+            <div class="input-wrapper">
+              <label for="checkout" class="input-label">Дата повернення*</label>
+
+              <input type="date" name="checkout" id="checkout" required class="input-field">
+            </div>
+
+            <button type="submit" class="btn btn-secondary">Зробити запит</button>
+
+          </form>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #POPULAR
+      -->
+
+      <section class="popular" id="destination">
+        <div class="container">
+
+          <p class="section-subtitle">Досліджуйте нові місця</p>
+
+          <h2 class="h2 section-title">Популярні напрямки</h2>
+
+          <p class="section-text">
+            Досліджуйте нові місця, обирайте серед безлічі варіантів та пропозицій.
+          </p>
+
+          <ul class="popular-list">
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/9/90/Piaski11.jpg" alt="Літо 2023. Болгарія" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Болгарія</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="bulgaria.html">Літо 2023. Болгарія</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Відпочинок на морському узбережжі Болгарії літо-2023
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b4/Istanbul_Montage_2016.png" alt="Istanbul, Turkey" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Туреччина</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Відпочинок в Туречині</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Туреччина — країна на чотирьох морях, з гірськолижними центрами, курортними містами з багатою історією та різноплановою інфраструктурою.
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="popular-card">
+
+                <figure class="card-img">
+                  <img src="./assets/images/egypt.jpg" alt="Egypt" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <div class="card-rating">
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                    <ion-icon name="star"></ion-icon>
+                  </div>
+
+                  <p class="card-subtitle">
+                    <a href="#">Єгипет</a>
+                  </p>
+
+                  <h3 class="h3 card-title">
+                    <a href="#">Тури до Єгипту</a>
+                  </h3>
+
+                  <p class="card-text">
+                    Наша концепція відпочинку в Єгипті «Відкрий Єгипет заново» – це ваші нові відкриття у кожній подорожі в цю країну!
+                  </p>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <a href="vidpochunok.html">
+            <button class="btn btn-primary">Більше пропозицій</button>
+          </a>
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #PACKAGE
+      -->
+
+      <section class="package" id="package">
+        <div class="container">
+
+          <p class="section-subtitle">Популярні тури</p>
+
+          <h2 class="h2 section-title">Перегляньте наші екскурсійні пропозиції</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="package-list">
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/8/85/%D0%94%D0%B5_%D0%BB%D1%8F_%D0%A4%D0%BB%D1%96%D0%B7_%D0%A2%D1%80%D0%B8%D0%BF%D1%96%D0%BB%D0%BB%D1%8F_530.jpg" alt="Experience The Great Holiday On Beach" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Екскурсія «Сенсації та загадки Трипілля»</h3>
+
+                  <p class="card-text">
+                    Цей маршрут відмінно підійде для одноденного відпочинку. Та й переживати не варто! Трипілля - це не тільки «шкільна екскурсія по стопах стародавньої культури».
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">Щомісяця</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 40</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Трипілля</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(25 відгуків)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    від 350 грн
+                    <span>/ з особи</span>
+                  </p>
+                  <a href="excursions/trypillia.html">
+                    <button class="btn btn-secondary">Детальніше</button>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="./assets/images/packege-2.jpg" alt="Summer Holiday To The Oxolotan River" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Екскурсія «Запоріжжя та острів Хортиця»</h3>
+
+                  <p class="card-text">
+                    Хортиця – це батьківщина козаків, і саме тут багато сотень років тому процвітала Запорізька Січ. На Хортиці є безліч історичних об’єктів побачити які мають не лише мешканці Запоріжжя, а й гості міста.
+                  </p>
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">по замовленню</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 20</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">Хортиця</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(20 відгуків)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    від 520 грн
+                    <span>/ з особи</span>
+                  </p>
+                  <a href="excursions/khortytsia.html">
+                    <button class="btn btn-secondary">Детальніше</button>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="package-card">
+
+                <figure class="card-banner">
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/b/b8/%D0%94%D1%80%D0%B5%D0%B2%D0%BD%D1%96%D0%B9_%D0%9A%D0%B8%D1%97%D0%B2_%D1%83_%D0%9A%D0%BD%D1%8F%D0%B7%D1%96%D0%B2%D1%81%D1%82%D0%B2%D1%96_%D0%9A%D0%B8%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B0_%D0%A0%D1%83%D1%81%D1%8C.jpg" alt="парк «Київська Русь»" loading="lazy">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">парк «Київська Русь»</h3>
+
+                  <p class="card-text">
+                    «Парк Київська Русь» (Князівство Київська Русь) — відтворення Древнього Києва V—XIII століття, столиці великої середньовічної держави Київська Русь, в межах його історичного центру, відомого як Дитинець Києва або Град Володимира.
+                  </p>
+
+                  <ul class="card-meta-list">
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="time"></ion-icon>
+
+                        <p class="text">щомісяця</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="people"></ion-icon>
+
+                        <p class="text">max: 40</p>
+                      </div>
+                    </li>
+
+                    <li class="card-meta-item">
+                      <div class="meta-box">
+                        <ion-icon name="location"></ion-icon>
+
+                        <p class="text">с.Копачів</p>
+                      </div>
+                    </li>
+
+                  </ul>
+
+                </div>
+
+                <div class="card-price">
+
+                  <div class="wrapper">
+
+                    <p class="reviews">(40 відгуків)</p>
+
+                    <div class="card-rating">
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                      <ion-icon name="star"></ion-icon>
+                    </div>
+
+                  </div>
+
+                  <p class="price">
+                    від 300 грн
+                    <span>/ з особи</span>
+                  </p>
+                  <a href="excursions/kyiv-rus.html">
+                    <button class="btn btn-secondary">Детальніше</button>
+                  </a>
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+          <a href="all-excursions.html">
+            <button class="btn btn-primary">Переглянути всі тури</button>
+          </a>
+        </div>
+      </section>
+
+      <!-- 
+        - #GALLERY
+      -->
+
+      <section class="gallery" id="gallery">
+        <div class="container">
+
+          <p class="section-subtitle">галерея</p>
+
+          <h2 class="h2 section-title">Фотовідгуки від туристів</h2>
+
+          <p class="section-text">
+            Fusce hic augue velit wisi quibusdam pariatur, iusto primis, nec nemo, rutrum. Vestibulum cumque laudantium.
+            Sit ornare
+            mollitia tenetur, aptent.
+          </p>
+
+          <ul class="gallery-list">
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-1.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-2.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-3.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-4.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+            <li class="gallery-item">
+              <figure class="gallery-image">
+                <img src="./assets/images/gallery-5.jpg" alt="Gallery image">
+              </figure>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="cta" id="contact">
+        <div class="container">
+
+          <div class="cta-content">
+            <p class="section-subtitle">Телефонуйте ат бронюйте</p>
+
+            <h2 class="h2 section-title">Готові до незабутніх вражень?</h2>
+
+            <p class="section-text">
+              Телефонуйте нам, пишіть або завітайте до нашого офісу та замовляйте індивідуальні тури до будь якого куточку світу!
+            </p>
+          </div>
+
+          <button class="btn btn-secondary">Замовити !</button>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+      <div class="container">
+
+        <div class="footer-brand">
+
+          <a href="#" class="logo">
+            <img src="./assets/images/bitmap.svg" alt="Toptravel logo">
+          </a>
+
+          <p class="footer-text">
+            Дорогі друзі!!! <br>
+            Ми раді вітати Вас на нашому сайті! Ми праюємо для Вас! З великим задоволенням відповімо на Ваші телефонні
+            дзвінки та повідомлення! З радістю надамо допомогу у виборі відповідного туру та докладемо максимум зусиль, аби Ваш відпочинок став найкращим! Ми дуже раді, що Ви плануєте подорожувати саме з нами. Наша команда впевнена,
+            що відпочинок з туристичною компанією «Top-travel» буде комфортним і приємним.
+          </p>
+
+        </div>
+
+        <div class="footer-contact">
+
+          <h4 class="contact-title">Наші контакти</h4>
+
+          <p class="contact-text">
+            З нетерпінням чекаємо на вас!
+          </p>
+
+          <ul>
+
+            <li class="contact-item">
+              <ion-icon name="call-outline"></ion-icon>
+
+              <a href="tel:+380634151210" class="contact-link">+38 (063) 415 12 10</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="mail-outline"></ion-icon>
+
+              <a href="mailto:info@toptravel.crimea.ua" class="contact-link">info.toptravel.crimea.ua</a>
+            </li>
+
+            <li class="contact-item">
+              <ion-icon name="location-outline"></ion-icon>
+
+              <address>м.Сміла, вул.Соборна 100 оф.1</address>
+            </li>
+
+          </ul>
+
+        </div>
+
+        <div class="footer-form">
+
+          <p class="form-text">
+            Підпишіться на нашу розсилку та отримуйте найсвіжіші гарячі пропозиції!
+          </p>
+
+          <form action="" class="form-wrapper">
+            <input type="email" name="email" class="input-field" placeholder="Enter Your Email" required>
+
+            <button type="submit" class="btn btn-secondary">Підписатися</button>
+          </form>
+
+        </div>
+
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container">
+
+        <p class="copyright">
+          &copy; 2023 <a href="">Туристична компанія "Toptravel"</a>. All rights reserved
+        </p>
+
+        <ul class="footer-bottom-list">
+
+          <li>
+            <a href="#" class="footer-bottom-link">Наша команда</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Умови співпраці</a>
+          </li>
+
+          <li>
+            <a href="#" class="footer-bottom-link">Часті питання</a>
+          </li>
+
+        </ul>
+
+      </div>
+    </div>
+
+  </footer>
+
+
+
+
+
+  <!-- 
+    - #GO TO TOP
+  -->
+
+  <a href="#top" class="go-top" data-go-top>
+    <ion-icon name="chevron-up-outline"></ion-icon>
+  </a>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
 </body>
+
 </html>
